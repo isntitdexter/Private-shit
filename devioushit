@@ -21,26 +21,19 @@ local raycast_params_new = RaycastParams.new
 local enum_rft_blk = Enum.RaycastFilterType.Blacklist
 local glass = Enum.Material.Glass
 local string_find = string.find
-
---[[
-    todo
-
-    add randomness to mouse movement (more human-like movements)
-]]
-
---<- settings ->--
+--- settings --
 
 --[[
     how to modify settings
 
-    most options will have a value that hold either "true" or "false" (without quotes)
+    most options will have a value of "true" or "false"
 
-    true stands for yes and false stands for no
+    change them how you like ur settings
 ]]
 
 local _aimsp_settings; _aimsp_settings = {
 
-    -- aimbot settings
+    -- aimbot 
     rage_mode = {
         use = false,
         --[[
