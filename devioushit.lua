@@ -1,7 +1,3 @@
-local library = loadstring(game:HttpGet("https://github.com/isntitdexter/Private-shit/raw/main/cum.lua"))()
-local Main = library.new("Jailbird V2 | H3LLLO", 5013109572)
-print("Loading")
-
 local drawing_new = Drawing.new
 local vector2_new = Vector2.new
 local vector3_new = Vector3.new
@@ -116,7 +112,7 @@ local _aimsp_settings; _aimsp_settings = {
         thickness = 1,
         length = 8;
     },
-    tracers = true,
+    tracers = false,
     foot_circle = false, -- (laggy)
     looking_at_tracers = {
         use = true,
