@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://github.com/isntitdexter/Private-shit/blob/main/cum"))()
+local library = loadstring(game:HttpGet("https://github.com/isntitdexter/Private-shit/raw/main/cum.lua"))()
 local Main = library.new("Jailbird V2 | H3LLLO", 5013109572)
 print("Loading")
 
